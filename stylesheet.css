@@ -123,8 +123,14 @@
    margin-bottom: 7rem;
   }
 
-  .btn{
+  .btn {
    padding: 1.3rem 3.5rem;
    border: 1px solid rgb(159,118,87);
    font-weight: 700;
+  }
+
+  .btn:hover {
+   background-color: rgb(60,58,71);
+   border-color: rgb(60,58,71);
+   color: rgb(255,255,255);
   }
