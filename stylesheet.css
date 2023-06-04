@@ -243,3 +243,12 @@
   p.large + .social-icons{
    margin-top: 7rem;
   }
+
+  /* FOOTER */
+  footer{
+   padding: 5rem 0;
+  }
+
+  footer p {
+  text-align: center;
+  }
