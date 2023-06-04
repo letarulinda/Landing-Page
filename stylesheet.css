@@ -226,3 +226,20 @@
   p.muted{
    color: rgba(255,255,255, .5);
   }
+
+  .muted{
+   margin-top: 1.75rem;
+  }
+
+  /* STORE SECTION */
+  .social-icons{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2.5rem;
+  }
+
+  p.large + .social-icons{
+   margin-top: 7rem;
+  }
