@@ -252,3 +252,48 @@
   footer p {
   text-align: center;
   }
+
+  /* RESPONSIVE */
+  @media screen and (max-width:600px) {
+   h1,
+   h3.large{
+      font-size: 2.3rem;
+   }
+
+   h2,
+   p.large{
+      font-size: 1.3rem;
+   }
+
+   h3{
+      font-size: 1.8rem;
+   }
+
+   .container.small{
+      width: 85%;
+   }
+
+   #main-header,
+   section{
+      padding: 6rem 0;
+   }
+
+   footer{
+      padding: 2.5rem 0;
+   }
+
+   p.large + .social-icons{
+      margin-top: 3.5rem;
+     }
+
+     #main-header{
+      margin-top: 3.5rem;
+     }
+  }
+
+  @media screen and (max-width:800px){
+   .gallery{
+      grid-template-columns: 1fr;
+      gap: 2rem;
+   }
+  }
